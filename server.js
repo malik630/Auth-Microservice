@@ -3,10 +3,10 @@ const express = require("express");
 const session = require("express-session");
 const passport = require("passport");
 const cors = require("cors");
-const authRoutes = require("./routes/auth");
+const authRoutes = require("./src/routes/auth");
 
 // Configuration Passport
-require("./config/passport");
+require("./src/config/passport");
 
 const app = express();
 
